@@ -1,1 +1,1 @@
-Manages contacts smartky.
+Manages contacts smartly.
