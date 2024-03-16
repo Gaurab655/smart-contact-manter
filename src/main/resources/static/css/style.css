@@ -1,0 +1,92 @@
+body {
+    background: #e2e2e2!important;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+.bg-primary{
+background:#8B59E8;
+
+}
+.banner{
+width:100%;
+height:93vh;
+background:url(../img/ban.jpg);
+background-size:cover;
+color:white;
+}
+.content{
+margin:150px;
+gap:8px;
+}
+.btn{
+
+color: #ffffff;
+}
+.my-card {
+    padding: 20px;
+    margin-top: 24px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.my-card h1 {
+    color: #333333; /* Change heading color to a darker shade */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my-card input[type="text"],
+.my-card input[type="email"],
+.my-card input[type="password"],
+.my-card textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da; /* Add border to input fields */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.my-card textarea {
+    resize: none; /* Disable resizing of textarea */
+}
+
+.my-card .form-label {
+    font-weight: bold;
+    color: #555555; /* Change label color to a slightly darker shade */
+}
+
+.my-card .btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.my-card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+}
+
+.my-card .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.my-card .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529; /* Change warning button text color to a darker shade */
+}
+
+.my-card .btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+}
